@@ -3,11 +3,12 @@ module github.com/tendermint/spm
 go 1.16
 
 require (
-	github.com/cosmos/cosmos-sdk v0.44.3
-	github.com/cosmos/ibc-go v1.2.2
+	github.com/containerd/continuity v0.1.0 // indirect
+	github.com/cosmos/cosmos-sdk v0.45.1
+	github.com/cosmos/ibc-go/v3 v3.0.0
 	github.com/google/gofuzz v1.2.0 // indirect
-	github.com/spf13/cast v1.3.1
-	github.com/spf13/cobra v1.2.1
+	github.com/spf13/cast v1.4.1
+	github.com/spf13/cobra v1.3.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.0
 	github.com/tendermint/tendermint v0.34.14
